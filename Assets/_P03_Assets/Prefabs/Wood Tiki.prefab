@@ -122,8 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42bfd46d293e3e24ebc597788d8ed063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tikiBreak: {fileID: 8300000, guid: 9e7d2a04ae9575448a2470699f5b92b4, type: 3}
+  tikiBreak: {fileID: 8300000, guid: 31315964528b7064fbc12e575525a155, type: 3}
   tikiDebris: {fileID: 6237528071978112342, guid: 5a0ae5ea6bb63f64cbcc8cddea5d7337,
+    type: 3}
+  _shinyObject: {fileID: 2094873598208578145, guid: bdc12fc085ca29d4b9a50d590e3001c9,
     type: 3}
 --- !u!1 &5484157684707043167
 GameObject:

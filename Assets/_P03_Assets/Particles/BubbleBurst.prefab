@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 296811892924783918}
   - component: {fileID: 296811892924783917}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: BubbleBurst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4767,7 +4767,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3f81ce621e6e4fe428c3cd54e767886f, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0

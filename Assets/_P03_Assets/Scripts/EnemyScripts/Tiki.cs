@@ -6,12 +6,18 @@ public class Tiki : MonoBehaviour
 {
     [SerializeField] AudioClip tikiBreak;
     [SerializeField] ParticleSystem tikiDebris;
+
+    public GameObject _shinyObject;
     
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+
+    }
+
+    public void spawnShinyObject()
+    {
+        Instantiate(_shinyObject, transform.position, Quaternion.identity);
     }
 
     public void destroyTiki()
@@ -19,6 +25,7 @@ public class Tiki : MonoBehaviour
         OneShotSoundManager.PlayClip2D(tikiBreak, 0.5f);
         ParticleSystem deathParticles = Instantiate(tikiDebris, transform.position, Quaternion.identity);
         deathParticles.Play();
+        spawnShinyObject();
         Destroy(gameObject);
     }
 }
